@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tustareapp": {
+      "hosting": {
+        "tusTareapp": [
+          "tustareapp"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tustareapp"
+  }
+}
