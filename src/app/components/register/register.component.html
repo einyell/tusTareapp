@@ -1,4 +1,4 @@
-<h2>Registro de usuario</h2>
+<h2>Nueva cuenta</h2>
 
 <form [formGroup]="RegisterForm" (ngSubmit)="onSubmit()">
     <div class="mb-3">
@@ -10,4 +10,7 @@
         <input type="password" class="form-control" formControlName="password">
     </div>
     <input type="submit" value="Enviar">
+
+    <p>¿Ya tienes cuenta?</p>
+    <a class="" routerLink="/login">Iniciar sesión</a>
 </form>
